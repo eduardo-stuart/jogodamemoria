@@ -1,0 +1,16 @@
+{
+  "categoria": "Bandeiras",
+  "descricao": "Dez países, um desafio: em quantas tentativas você consegue encontrar os pares de bandeiras?",
+  "arquivos": [
+    "/imagens/bandeiras/argentina.svg",
+    "/imagens/bandeiras/brazil.svg",
+    "/imagens/bandeiras/canada.svg",
+    "/imagens/bandeiras/china.svg",
+    "/imagens/bandeiras/india.svg",
+    "/imagens/bandeiras/italy.svg",
+    "/imagens/bandeiras/japan.svg",
+    "/imagens/bandeiras/portugal.svg",
+    "/imagens/bandeiras/united-kingdom.svg",
+    "/imagens/bandeiras/united-states-of-america.svg"    
+  ] 
+}

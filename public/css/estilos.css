@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 4, 44);
+  color: #222;
+  font-family: "Montserrat";
+}
+
+.hero-wrapper {
+  background: url('/imagens/fundo.webp');
+  background-size: cover;
+  background-color: rgb(7, 4, 44);;
+  background-blend-mode: hard-light;
+  color: white;
+}  
+
+.hero-wrapper .topo {
+  background-color: rgb(7, 4, 44, 0.8);
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  padding: 0 1em;
+  color: white;
+}
+
+.hero-wrapper .titulo {
+  margin-left: 0.5rem;
+  font-size: 1.2rem; 
+}
+
+.hero-conteudo {
+  min-height: 120px;
+  padding: 1.2rem;
+  background-color: rgba(0, 0, 0, .6);
+  border-top: 2px solid rgba(145, 145, 145, 0.9);
+  border-bottom: 2px solid rgba(145, 145, 145, 0.9);
+  text-align: center;
+  line-height: 2rem;
+}
+
+.hero-conteudo h1 {
+  text-shadow: 2px 2px 10px black;
+  font-size: 2rem;
+}
+
+.wrapper {
+  background: url('/imagens/mapamundi.webp');
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(7, 4, 44, 0.9);
+  color: #ffe;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+.tabuleiro {
+  text-align: center;
+  justify-content: center;  
+}
+
+.carta {
+  position: relative;
+  transition: 0.2s transform ease-in;
+  transform-style: preserve-3d;
+  border: 1px solid rgba(58, 13, 255, 0.6);
+  border-radius: 10px;
+}
+
+.carta.virada {
+  transform: rotateY(180deg)
+}
+
+.carta-cara {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+}
+
+.carta-cara.frente {
+  background-image: url('/imagens/frente.png');
+  background-color: orange;
+  background-blend-mode: darken;
+  transform: rotateY(180deg);
+}
+
+.carta-cara.verso {
+  background-image: url('/imagens/verso.jpg');
+  background-size: cover;
+}
+
+.icone-carta {
+  border-radius: 50px;
+  box-shadow: 1px 2px 5px rgba(10, 10, 10, 0.8);
+  width: 80%;
+}
+
+.tabuleiro-cartas {
+  display: grid;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  max-width: 680px;
+  grid-template-columns: repeat(5, 100px);
+  grid-auto-rows: 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+
+.categoria h1 {
+  font-size: 2.4rem;
+}
+
+.categoria .descricao {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  font-size: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+.menu-inicial {
+  padding: 5rem;
+}
+
+.tela-principal {
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 13, 255, 0.6);
+  margin: 0 auto;
+  margin-top: 1.4rem;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 190px;
+  width: 40%;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  background-color: rebeccapurple;
+  box-shadow: 0 0 0 3px white;
+  color: white;
+  font-weight: bolder;
+}
+
+.separador-semi {
+  width: 100%;
+  margin: 10px 10px 5px 10px;
+  height: 2px;
+  background: rgba(145, 145, 145, .4);
+}
+
+
+/* Para evitar que os cartões fiquem muito bagunçados em resoluções menores */
+@media( max-width: 640px) {
+  .tabuleiro-cartas {
+    grid-template-columns: repeat(5, 85px);
+    grid-auto-rows: 85px;
+
+  }
+}
+
+@media( max-width: 550px) {
+  .tabuleiro-cartas {
+    grid-template-columns: repeat(5, 70px);
+    grid-auto-rows: 70px;
+  }
+  
+}
+
+@media( max-width: 480px) {
+  .tabuleiro-cartas {
+    grid-template-columns: repeat(4, 60px);
+    grid-auto-rows: 60px;
+  }
+
+  .hero-wrapper .topo {
+    justify-content: center;
+  }
+}
+
+@media( max-width: 340px) {
+  .tabuleiro-cartas {
+    grid-template-columns: repeat(2, 100px);
+    grid-auto-rows: 100px;
+  }
+}
