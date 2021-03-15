@@ -57,10 +57,10 @@ As instruções a seguir são para o sistema **Linux**, mas o procedimento é ba
    cd jogodamemoria
    ```
 
-2. Clone o jogo, usando o seguinte comando:
+2. Clone o jogo, usando o seguinte comando (note o ponto final no término do comando─ele é importante para evitar a criação de uma subpasta desnecessária):
 
    ```bash
-   git clone git@github.com:eduardo-stuart/jogodamemoria.git
+   git clone git@github.com:eduardo-stuart/jogodamemoria.git .
    ```
 
 3. Após a transferência, faça a instalação de dependências usadas pelo projeto:
@@ -83,6 +83,17 @@ As instruções a seguir são para o sistema **Linux**, mas o procedimento é ba
     - Local:   http://localhost:8080/ 
     - Network: http://192.168.1.10:8080/
    ```
+
+
+### Sobre
+
+Olá! Meu nome é Eduardo Stuart. Atuo como desenvolvedor de software faz algum tempo.
+
+Outro projeto que me dediquei nos últimos meses foi o **[ValorATUAL](https://valoratual.com.br/)**, uma prática ferramenta online desenvolvida para facilitar o cálculo da correção monetária usando vários dos índices oficiais.
+
+[ValorATUAL](https://valoratual.com.br/) é atualizado constantemente e seu uso é inteiramente gratuito.
+
+![ValorAtual](https://valoratual.com.br/img/logo-og.png)
 
 ### Entre em contato
 
