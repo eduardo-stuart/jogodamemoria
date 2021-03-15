@@ -1,7 +1,5 @@
 # Jogo da Memória
 
----
-
 Desafio de programação com o objetivo de exemplificar o uso de técnicas modernas de desenvolvimento de software. 
 
 Para esse desafio, o objetivo era criar um jogo de memória que empregasse as seguintes tecnologias:
@@ -10,13 +8,13 @@ Para esse desafio, o objetivo era criar um jogo de memória que empregasse as se
 * **HTML 5**
 * **CSS 3**
 
----
-
 ### Captura de Tela
 
 ![Jogo da Memória](./etc/captura.webp)
 
----
+### Versão Online
+
+Uma versão operacional do jogo pode ser testada diretamente na janela do navegador ao visitar o endereço [https://memoria.eduardostuart.pro.br](https://memoria.eduardostuart.pro.br)
 
 ### Sobre o Jogo
 
@@ -28,8 +26,6 @@ Ao terminar uma partida, o jogador deverá ser saudado, e uma relação com os m
 
 O jogador poderá optar por iniciar uma nova partida.
 
----
-
 ### Objetivos Técnicos
 
 * Empregar as melhores práticas do desenvolvimento de software (_**Código Limpo**_)
@@ -37,14 +33,6 @@ O jogador poderá optar por iniciar uma nova partida.
 * Desenvolver uma interface responsiva, entregando uma experiência agradável tanto para usuários de dispositivos móveis, quanto em desktops
   * Nenhum *framework* externo, como **Bootstrap** ou similar, poderia ser usado
   * Todo o código para o design foi criado usando apenas puro **HTML** e **CSS**  
-
----
-
-### Versão Online
-
-Uma versão operacional do jogo pode ser testada diretamente na janela do navegador ao visitar o endereço [https://memoria.eduardostuart.pro.br](https://memoria.eduardostuart.pro.br)
-
----
 
 ### Requisitos
 
@@ -56,8 +44,6 @@ Para alterar o jogo (e testá-lo em um servidor local), será necessário possui
    * Versão 3 ou superior ─ não irá funcionar em versões anteriores devido ao uso de recursos modernos como **Composition API**.
 3. [Google Chrome](https://www.google.com/intl/pt-BR/chrome/), [Firefox](https://www.mozilla.org/pt-BR/firefox/new/), [Edge](https://www.microsoft.com/pt-br/edge),...
    * Qualquer versão recente dos principais *browsers* será capaz de executar o jogo sem problemas
-
----
 
 ### Instalação
 
@@ -74,7 +60,7 @@ As instruções a seguir são para o sistema **Linux**, mas o procedimento é ba
 2. Clone o jogo, usando o seguinte comando:
 
    ```bash
-   git clone...
+   git clone git@github.com:eduardo-stuart/jogodamemoria.git
    ```
 
 3. Após a transferência, faça a instalação de dependências usadas pelo projeto:
@@ -98,11 +84,9 @@ As instruções a seguir são para o sistema **Linux**, mas o procedimento é ba
     - Network: http://192.168.1.10:8080/
    ```
 
----
-
 ### Entre em contato
 
-Em caso de dúvidas, críticas ou sugestões, não deixe de entrar em contato comigo.
+Em caso de dúvidas, críticas ou sugestões, não deixe de entrar em contato.
 
 Toda e qualquer sugestão de melhoria, seja no código, seja nas técnicas que foram empregadas, serão muito bem-vindas. 
 
