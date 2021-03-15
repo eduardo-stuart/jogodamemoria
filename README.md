@@ -29,7 +29,7 @@ O jogador poderá optar por iniciar uma nova partida.
 ### Objetivos Técnicos
 
 * Empregar as melhores práticas do desenvolvimento de software (_**Código Limpo**_)
-* Usar recursos modernos do *framework* **VueJS **, com a _**Composition API**_ e o carregamento dinâmico de componentes, entre outros
+* Usar recursos modernos do *framework* **VueJS**, com a _**Composition API**_ e o carregamento dinâmico de componentes, entre outros
 * Desenvolver uma interface responsiva, entregando uma experiência agradável tanto para usuários de dispositivos móveis, quanto em desktops
   * Nenhum *framework* externo, como **Bootstrap** ou similar, poderia ser usado
   * Todo o código para o design foi criado usando apenas puro **HTML** e **CSS**  
