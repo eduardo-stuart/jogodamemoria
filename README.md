@@ -29,7 +29,7 @@ O jogador poderá optar por iniciar uma nova partida.
 ### Objetivos Técnicos
 
 * Empregar as melhores práticas do desenvolvimento de software (_**Código Limpo**_)
-* Usar recursos modernos do *framework* **VueJS**, com a _**Composition API**_ e o carregamento dinâmico de componentes, entre outros
+* Usar recursos modernos do *framework* **VueJS**, como a _**Composition API**_ e o carregamento dinâmico de componentes, entre outros
 * Desenvolver uma interface responsiva, entregando uma experiência agradável tanto para usuários de dispositivos móveis, quanto em desktops
   * Nenhum *framework* externo, como **Bootstrap** ou similar, poderia ser usado
   * Todo o código para o design foi criado usando apenas puro **HTML** e **CSS**  
@@ -95,10 +95,12 @@ Outro projeto que me dediquei nos últimos meses foi o **[ValorATUAL](https://va
 
 ![ValorAtual](https://valoratual.com.br/img/logo-og.png)
 
-### Entre em contato
+<img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.eduardostuart.pro.br/matomo.php?idsite=5&amp;rec=1" style="border:0" alt="" />
 
+### Entre em contato
 Em caso de dúvidas, críticas ou sugestões, não deixe de entrar em contato.
 
 Toda e qualquer sugestão de melhoria, seja no código, seja nas técnicas que foram empregadas, serão muito bem-vindas. 
 
 Você pode entrar em contato comigo via [LinkedIn](https://www.linkedin.com/in/eduardo-stuart/).
+
